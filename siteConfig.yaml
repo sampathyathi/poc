@@ -1,0 +1,58 @@
+meta:
+  title: Redocly Training
+  description: The best API documentation generator ever.
+  siteUrl: https://developer-portal-starter.redoc.ly
+  keywords: redocly developer portal, api portal starter, api reference docs
+  lang: en-US
+linkChecker:
+  severity: warning
+  options:
+    CheckExternal: false
+logo:
+  image: ./images/vm-logo.svg
+  altText: Redocly Training
+toc:
+  enable: true
+oasDefinitions:
+  QMA: ./openapi/QMA_OAS_WIP.yml
+  # add links to definitions in our API registry by using a fully qualified URL.
+stylesheets:
+  - main.css
+  - https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+  - https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap
+  - https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap
+#analytics:
+  # ga:
+  # note that GA doesn't work in the development environment
+  #  trackingId: UA-45997213-1
+#scripts:
+#  - main.js
+#  - ./static/intercom.js
+nav:
+
+  - label: QMA
+    page: developer-portal/index.md
+
+  - label: QMA User Guide
+    icon: ./images/redocly-icon-white.png
+    href: https://bdquotemanagement.azurewebsites.net/Content/Home.htm
+
+  - search: true
+
+# footer:
+#   copyrightText: Copyright © Redocly 2019-2021. All right reserved.
+#   columns:
+#     - group: Legal
+#       items:
+#         - label: Terms of Use
+#           href: 'https://redoc.ly/subscription-agreement/'
+#         - label: Privacy Notice
+#           href: 'https://redoc.ly/privacy-notice/'
+#         - label: Cookie Notice
+#           href: 'https://redoc.ly/cookie-notice/'
+#     - group: Support
+#       items:
+#         - label: FAQ
+#           page: faq.md
+#         - label: Contact us
+#           page: contact.mdx

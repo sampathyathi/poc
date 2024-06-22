@@ -1,0 +1,9 @@
+QMA:
+  - page: developer-portal/index.md
+  - group: QMA reference
+    expanded: false
+    pages:
+      - page: openapi/reference.page.yaml/*
+alternative:
+  - page: developer-portal/sidebar-alternative.md
+    label: Alternative sidebar example

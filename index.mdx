@@ -1,0 +1,82 @@
+---
+title: Demo API Portal
+---
+
+import {
+  LandingLayout,
+  Button,
+  Box,
+  FlexSection,
+  Flex,
+  Jumbotron,
+  ThinTile,
+  WideTile,
+  Emphasis,
+  H1,
+  H2,
+  SectionHeader,
+  NavBar,
+  SearchBox,
+} from "@redocly/developer-portal/ui";
+
+import icon1 from "./images/engage-portals.svg";
+import icon2 from "./images/ifoundry.svg";
+import icon3 from "./images/frameworks.svg";
+import icon4 from "./images/data-platform.svg";
+import launchFastIcon from "./images/launch-fast.svg";
+import bookManagementIcon from "./images/book-management.svg";
+import foundOrPrivate from "./images/found-or-private.svg";
+
+export default LandingLayout;
+
+<Jumbotron
+  bgColor="#F2F2FA"
+  textColor="#2b2b35"
+  pb="1.3em"
+  className="heroParent"
+>
+  <NavBar location={props.location} standalone={true} />
+  <span class="heroSectionLeft"></span>
+  <H1 fontSize="26px" fontWeight="normal" className="headingzIndex">
+    Welcome! to <span class="vm-bold">BizDynamics</span> Documentation
+  </H1>
+  <H2 mb="30px" className="headingzIndex">
+    <span class="text">Your source for API Reference</span>
+  </H2>
+  <Flex justifyContent="center" zIndex="1">
+    {/* <Button size="xlarge" to="https://app.redoc.ly">
+      Redocly app
+    </Button> */}
+    <SearchBox className="home-search" pathPrefix={props.pathPrefix} />
+    {/*<Button to="developer-portal/index.md" color="primary">
+      Get started
+    </Button>*/}
+    {/* <Button variant="outlined" size="xlarge" to="https://redoc.ly/docs">
+      Docs
+    </Button> */}
+  </Flex>
+  <span class="heroSectionRight"></span>
+</Jumbotron>
+<Box my={30}>
+  <FlexSection justifyContent="center" flexWrap="wrap" className="thin-tiles">
+    <ThinTile
+      to="developer-portal/index.md"
+      icon={icon1}
+      header="Quote Management and Analytics"
+    >
+      <span className="thintiletext">
+        Learn everything you need to know about the QMA API and how to make use
+        case of it
+      </span>
+    </ThinTile>
+    <ThinTile to="" icon={icon2} header="iFoundry">
+      <span className="thintiletext">Site under Progress</span>
+    </ThinTile>
+    <ThinTile to="" icon={icon3} header="Frameworks">
+      <span className="thintiletext">Site under Progress</span>
+    </ThinTile>
+    <ThinTile to="" icon={icon4} header="Data Platform">
+      <span className="thintiletext">Site under Progress</span>
+    </ThinTile>
+  </FlexSection>
+</Box>

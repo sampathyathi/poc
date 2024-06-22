@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.6" height="62.458" viewBox="0 0 71.6 62.458">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c24cae"/>
+      <stop offset="0.661" stop-color="#936eca"/>
+      <stop offset="1" stop-color="#5483db"/>
+    </linearGradient>
+  </defs>
+  <path id="engage-portals" d="M-1433.49-5405.541h-59.42a6.1,6.1,0,0,1-6.09-6.088v-50.28a6.1,6.1,0,0,1,6.09-6.09h59.42a6.1,6.1,0,0,1,6.09,6.09v50.28A6.1,6.1,0,0,1-1433.49-5405.541Zm-62.473-41.2v35.107a3.055,3.055,0,0,0,3.053,3.051h59.42a3.054,3.054,0,0,0,3.051-3.051v-35.107Zm3.053-18.226a3.056,3.056,0,0,0-3.053,3.053v12.134h65.524v-12.134a3.056,3.056,0,0,0-3.051-3.053Zm42.656,46.852h-25.891v-3.039h3.429v-13.712h3.037v13.712h4.96v-10.283h3.039v10.283h4.96v-19.426h3.039v19.426h3.427v3.038Zm16-37.849h-3.039V-5459h3.039v3.036Zm-6.856,0h-3.039V-5459h3.039v3.036Zm-6.856,0h-3.039V-5459h3.039v3.036Zm-12.571,0h-31.605V-5459h31.605v3.036Z" transform="translate(1499 5468)" fill="url(#linear-gradient)"/>
+</svg>
